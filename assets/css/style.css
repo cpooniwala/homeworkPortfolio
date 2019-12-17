@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.outerHeader{
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    height: 78px;
+    width: 100%;
+}
+
+.innerHeader{
+    /* background-color: green; */
+    background-color: #ffffff;
+    width: 960px;
+    height: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.nameBackgroundStyle{
+color: white;
+background-color: #4aaaa5;
+width: 20%;
+height: 100%;
+float: left;
+}
+
+.nameTextStyle{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.navigation{
+
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color: #777777;
+text-decoration: none;
+float: right;
+padding-top: 25px;
+}
+.linkStyle{
+    padding-right: 20px;
+    padding-left: 20px;
+    opacity: 20%;
+}
+.background{
+    background-image: url(../images/dust_scratches.png);
+    background-size: cover;
+}
+
+.aboutMeOuter{
+    background-color: #ffffff;
+    width: 968px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 50px;
+    border: 1px solid #dddddd;
+
+}
+
+.clearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.aboutMeBackground{
+    background-color: #ffffff;
+    /* background-color: green; */
+    width: 20%;
+    height: 15%;
+    float: left;    
+    }
+
+.aboutMeText{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    color: #4aaaa5;
+}
+
+.aboutMeBorder{
+    border-bottom: 2px solid #dddddd;
+    width: 900px;
+    margin-left: 33px;
+    padding-top: 25px;
+}
+
+.profileImage{
+    height: 200px;
+    width: 200px;
+    display: block;
+    float: left;
+    padding-right: 20px;
+}
+
+.p1{
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color: #777777;
+border-top: 2px solid #dddddd;
+float: left;
+padding-top: 25px;
+margin-left: 33px;
+width: 900px;
+line-height: 25px;
+}
+
+.p2{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    float: left;
+    padding-top: 25px;
+    margin-left: 33px;
+    width: 900px;
+    line-height: 25px;
+    }
+
+.flexContainer{
+    display: flex;
+    width: 900px;
+    height: 1300px;
+    background-color: #ffffff;
+    margin-left: 200px;
+    margin-top: 50px;
+    border: 1px solid #dddddd;
+    }
+
+
+.portfolioTextColor {
+          color: #ffffff;
+          background-color: #4aaaa5;
+          width: 20%;
+          text-align: center;
+          font-family: 'Georgia', Times, 'Times New Roman', serif;
+          padding-top: 25px;
+        }
+
+.portfolioImage{
+width: 200px;
+height: 150px;
+display: block;
+float: left;
+padding-right: 20px;
+object-fit: cover;
+}
